@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
@@ -12,6 +12,10 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="9.0.0-rc.2.24474.3" />
+      <PackageReference Include="Syncfusion.Blazor.Buttons" Version="27.1.57" />
+      <PackageReference Include="Syncfusion.Blazor.Navigations" Version="27.1.57" />
+      <PackageReference Include="Syncfusion.Blazor.Themes" Version="27.1.57" />
+      
   </ItemGroup>
 
 </Project>

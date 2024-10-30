@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Syncfusion.Blazor;
 using ComeForward.Shared.Services;
-using ComeForward.Web.Components;
 using ComeForward.Web.Services;
 
 var builder = WebApplication.CreateBuilder(args);
