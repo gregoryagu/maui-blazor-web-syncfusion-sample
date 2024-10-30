@@ -1,6 +1,7 @@
 ﻿using ComeForward.Services;
 using ComeForward.Shared.Services;
 using Microsoft.Extensions.Logging;
+using Syncfusion.Blazor;
 
 namespace ComeForward
 {
@@ -20,6 +21,7 @@ namespace ComeForward
             builder.Services.AddSingleton<IFormFactor, FormFactor>();
 
             builder.Services.AddMauiBlazorWebView();
+            builder.Services.AddSyncfusionBlazor();
 
 #if DEBUG
             builder.Services.AddBlazorWebViewDeveloperTools();
